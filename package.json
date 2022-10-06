@@ -1,0 +1,11 @@
+{
+  "name": "kick-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Keyrad Abbasi <keyrada@systemgroup.net>",
+  "license": "MIT",
+  "description": "This project kick starts a cucumber project"
+}
