@@ -1,1 +1,1 @@
-console.log("initially there was nothing");
+export * from "./domain";
