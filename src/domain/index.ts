@@ -1,1 +1,1 @@
-export * from "./simple-maths-calculator";
+export * from "./calculator";

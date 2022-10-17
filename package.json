@@ -1,13 +1,16 @@
 {
   "name": "kick-start",
-  "version": "1.0.0",
+  "version": "8.6.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && npm run cucumber-check",
-    "cucumber": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js tests/features/**/*.feature --require tests/step-definitions/**/*.ts --require-module ts-node/register --format json:tests/reports/cucumber-report.json",
-    "cucumber-check": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js tests/features/**/*.feature --require tests/step-definitions/**/*.ts --require-module ts-node/register --dry-run",
+    "build": "tsc && yarn cucumber-check",
+    "run:cucumber": "node ./node_modules/@cucumber/cucumber/bin/cucumber-js --language fa",
+    "cucumber": "yarn run:cucumber tests/features/**/addition.feature --require tests/step-definitions/**/*.ts --require-module ts-node/register --format json:tests/reports/cucumber-report.json",
+    "cucumber-check": "yarn run:cucumber tests/features/**/addition.feature --require tests/step-definitions/**/*.ts --require-module ts-node/register --dry-run",
     "test": "yarn cucumber",
-    "report": "ts-node tests/reporters/html-reporter.ts"
+    "report": "ts-node tests/reporters/html-reporter.ts",
+    "lang-list": "yarn run:cucumber --i18n-languages",
+    "cucumber-help": "yarn run:cucumber --help"
   },
   "author": "Keyrad Abbasi <keyrada@systemgroup.net>",
   "license": "MIT",

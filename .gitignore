@@ -1,5 +1,6 @@
 dist/
 node_modules/
 **/*.log
+**/~$*
 tests/reports/*
 !tests/reports/.gitkeep
