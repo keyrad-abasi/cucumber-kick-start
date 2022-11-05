@@ -2,11 +2,11 @@ import expect from "expect";
 import { Before, Given, Then, When } from "@cucumber/cucumber";
 import { Calculator } from "../../src/domain";
 
-Given("the input {string}", function (input: string) {
+Given("اینکه عبارت ورودی {string} باشه", function (input: string) {
   this.expression = input;
 });
 
-When("the calculator is run", function () {
+When("که ماشین حساب شروع به اجرای عملیات کنه", function () {
   const calculator = new Calculator();
   try {
     this.result = calculator.execute(this.expression);
@@ -15,6 +15,9 @@ When("the calculator is run", function () {
   }
 });
 
-Then("the output should be {string}", function (expectedValue: string) {
-  expect(this.result).toBe(expectedValue);
-});
+Then(
+  "نتیجه ی حاصل باید برابر با {string} باشه",
+  function (expectedValue: string) {
+    expect(this.result).toBe(expectedValue);
+  }
+);

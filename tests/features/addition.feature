@@ -1,11 +1,12 @@
-Feature: Addition
+            وِیژگی: جمع
 
-    Scenario Outline: Add two numbers
-        Given the input "<input>"
-        When the calculator is run
-        Then the output should be "<output>"
+            الگوی سناریو: دو عدد رو با هم جمع کن
 
-        Examples:
+            با فرض اینکه عبارت ورودی "<input>" باشه
+            هنگامی که ماشین حساب شروع به اجرای عملیات کنه
+            آنگاه نتیجه ی حاصل باید برابر با "<output>" باشه
+
+            نمونه ها:
             | input  | output |
             | 2+0    | 2      |
             | 2+(-2) | 0      |
