@@ -358,6 +358,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
+bootstrap@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.1.1.tgz#17e14ed261c0fcd9b52ea9aa6420f6d51cd5fa77"
+  integrity sha512-TAzqS8E/ISpVHP29gYhy+1NSV+FJwApDVQhDfgLYsIuUDJiqJzH2DfORN5tiu+Ie2iBLrzEG34t4Rf465cigqg==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -777,6 +782,11 @@ jest-util@^29.1.2:
     ci-info "^3.2.0"
     graceful-fs "^4.2.9"
     picomatch "^2.2.3"
+
+jquery@1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-1.11.0.tgz#c67ceee19b403650d682adcf39d5c9009814d949"
+  integrity sha512-hfN15gXeUqsx3HxHrHYzVzfWayuGwrCMONhvexiaIV/aUlLqC8Im+G7KrKTPkHzD7HCgeAaQ7VeHRn3Dlve8Hg==
 
 js-base64@^2.3.2:
   version "2.6.4"
